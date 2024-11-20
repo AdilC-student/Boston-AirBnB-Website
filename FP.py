@@ -18,7 +18,7 @@ import os
 
 # Loading the AirBnB data (3 Data Sheets stored in Zip File,
 def load_airbnb_data():
-    file_path = os.path.join(os.path.dirname(__file__), 'Boston AirBnb Data Folder', 'listings.csv')
+    file_path = os.path.join(os.path.dirname(__file__), 'Boston-AirBnb-Data-Folder', 'listings.csv')
     listings = pd.read_csv(file_path)
     return listings
 
